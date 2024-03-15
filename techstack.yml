@@ -1,0 +1,397 @@
+repo_name: thachlp/logback
+report_id: 9ba10cd7fa7211812ab4e0acfa0268b7
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T03:14:00+00:00'
+requested_by: ceki
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/thachlp/logback
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/thachlp/logback
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/thachlp/logback
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/src/main/resources/ch/qos/logback/classic/db/script/db2.sql
+  detection_source: logback-classic/src/main/resources/ch/qos/logback/classic/db/script/db2.sql
+  last_updated_by: Sebastien Pennec
+  last_updated_on: 2006-11-28 16:19:04.000000000 Z
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/thachlp/logback
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/thachlp/logback
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-11-29 16:44:32.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2009-12-03 09:11:35.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Gabriel Corona
+  last_updated_on: 2012-10-29 15:52:09.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic-blackbox/pom.xml
+  detection_source: logback-classic-blackbox/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-02 11:42:37.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2017-01-27 15:56:15.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Hannes Wellmann
+  last_updated_on: 2022-09-22 09:30:12.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2014-12-07 17:17:46.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/thachlp/logback
+  detection_source: Repo Metadata
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic-blackbox/pom.xml
+  detection_source: logback-classic-blackbox/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-02 11:42:37.000000000 Z
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2023-05-11 16:51:40.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2023-05-11 16:51:40.000000000 Z
+- name: com.icegreen:greenmail
+  description: GreenMail - Email Test Servers
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic-blackbox/pom.xml
+  detection_source: logback-classic-blackbox/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-07 16:49:49.000000000 Z
+- name: org.apache.felix:org.apache.felix.main
+  version: 5.6.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-09-30 14:41:12.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.23.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-02 11:42:37.000000000 Z
+- name: org.codehaus.janino:commons-compiler
+  description: The "commons-compiler" API
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-core/pom.xml
+  detection_source: logback-core/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2024-02-16 17:15:39.000000000 Z
+- name: org.codehaus.janino:janino
+  description: 'The "JANINO" implementation of the "commons-compiler" API: Super-small'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic-blackbox/pom.xml
+  detection_source: logback-classic-blackbox/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-07 16:49:49.000000000 Z
+- name: org.dom4j:dom4j
+  description: Flexible XML framework for Java
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic-blackbox/pom.xml
+  detection_source: logback-classic-blackbox/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-07 16:49:49.000000000 Z
+- name: org.fusesource.jansi:jansi
+  description: Jansi is a java library for generating and interpreting ANSI escape
+    sequences
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-core-blackbox/pom.xml
+  detection_source: logback-core-blackbox/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2023-03-20 21:57:50.000000000 Z
+- name: org.hamcrest:hamcrest-library
+  description: A library of Hamcrest matchers - deprecated
+  version: '2.2'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-09-30 14:41:12.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.9.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-02 11:42:37.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.9.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-10-02 11:42:37.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2023-05-11 16:51:40.000000000 Z
+- name: org.slf4j:jul-to-slf4j
+  description: JUL to SLF4J bridge
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-09-30 14:41:12.000000000 Z
+- name: org.slf4j:log4j-over-slf4j
+  description: Log4j implemented over SLF4J
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-09-30 14:41:12.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-classic/pom.xml
+  detection_source: logback-classic/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2022-09-30 14:41:12.000000000 Z
+- name: org.slf4j:slf4j-ext
+  description: Extensions to the SLF4J API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/thachlp/logback/blob/master/logback-examples/pom.xml
+  detection_source: logback-examples/pom.xml
+  last_updated_by: Ceki Gulcu
+  last_updated_on: 2019-10-12 16:22:16.000000000 Z
